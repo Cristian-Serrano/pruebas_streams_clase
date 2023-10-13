@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75eba251-9038-4d30-a0e9-57d604b57c4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" afterDir="false" />
+    <list default="true" id="75eba251-9038-4d30-a0e9-57d604b57c4e" name="Changes" comment="terminado">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,22 +92,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697191750972</updated>
-      <workItem from="1697191751995" duration="1609000" />
+      <workItem from="1697191751995" duration="1924000" />
     </task>
+    <task id="LOCAL-00001" summary="terminado">
+      <option name="closed" value="true" />
+      <created>1697193655227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697193655227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminado" />
   </component>
 </project>

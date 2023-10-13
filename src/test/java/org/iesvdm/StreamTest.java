@@ -23,7 +23,7 @@ public class StreamTest {
     }
 
     @Test
-    public void streamTest(){
+    public void streamJava7Test(){
         List<Dish> lowCaloricDishes = new ArrayList<>();
 
         for (Dish dish : menu) {
