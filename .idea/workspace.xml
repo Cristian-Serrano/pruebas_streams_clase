@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75eba251-9038-4d30-a0e9-57d604b57c4e" name="Changes" comment="terminado">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WhjY5p3euhwauMBkWwSkJBhPhN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/cristianserrano/IdeaProjects/pruebas_streams_clase/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,7 +94,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697191750972</updated>
-      <workItem from="1697191751995" duration="1924000" />
+      <workItem from="1697191751995" duration="2531000" />
+      <workItem from="1697537328256" duration="47000" />
+      <workItem from="1697610504933" duration="116000" />
+      <workItem from="1697610738433" duration="47000" />
+      <workItem from="1697612643643" duration="1833000" />
+      <workItem from="1697703614534" duration="2352000" />
+      <workItem from="1697711426081" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="terminado">
       <option name="closed" value="true" />
@@ -102,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697193655227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="terminado">
+      <option name="closed" value="true" />
+      <created>1697193680947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697193680947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

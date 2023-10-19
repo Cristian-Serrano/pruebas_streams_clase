@@ -1,12 +1,13 @@
 package org.iesvdm;
 
+import static java.util.stream.Collectors.toList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
-public class StreamTest {
+public class MenuTest {
     List<Dish> menu;
     @BeforeEach
     void setUp(){
@@ -42,5 +43,24 @@ public class StreamTest {
         }
 
         Assertions.assertTrue(true);
+    }
+
+    @Test
+    void pruebaFilter()
+    {
+        List<Dish> vegetarianDishes = menu.stream()
+                .filter(Dish::isVegetarian)  // <-> .filter(  dish -> dish.isVegetarian() )
+                // en filter los elementos del stream que no cumplen el predicado se eliminan
+                .collect(toList());
+
+        List<Dish> nonVegetarianDishes = menu.stream()
+                .filter(d -> !d.isVegetarian())  // <-> .filter(  dish -> dish.isVegetarian() )
+                // en filter los elementos del stream que no cumplen el predicado se eliminan
+                .collect(toList());
+
+        vegetarianDishes.forEach(d -> System.out.println(d));
+        nonVegetarianDishes.forEach(System.out::println);
+
+
     }
 }
