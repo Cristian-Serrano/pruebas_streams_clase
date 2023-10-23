@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75eba251-9038-4d30-a0e9-57d604b57c4e" name="Changes" comment="terminado">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/test/test/org/iesvdm/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/test/test/org/iesvdm/MenuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/cristianserrano/IdeaProjects/pruebas_streams_clase/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cristianserrano/IdeaProjects/pruebas_streams_clase/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.StreamTest.streamTest">
     <configuration name="StreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebas_streams_clase" />
@@ -101,7 +102,10 @@
       <workItem from="1697610738433" duration="47000" />
       <workItem from="1697612643643" duration="1833000" />
       <workItem from="1697703614534" duration="2352000" />
-      <workItem from="1697711426081" duration="609000" />
+      <workItem from="1697711426081" duration="610000" />
+      <workItem from="1697789799096" duration="370000" />
+      <workItem from="1698060129642" duration="14000" />
+      <workItem from="1698064275331" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="terminado">
       <option name="closed" value="true" />
