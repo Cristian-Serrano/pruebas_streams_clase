@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75eba251-9038-4d30-a0e9-57d604b57c4e" name="Changes" comment="terminado">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/test/test/org/iesvdm/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/test/test/org/iesvdm/MenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +103,8 @@
       <workItem from="1697789799096" duration="370000" />
       <workItem from="1698060129642" duration="14000" />
       <workItem from="1698064275331" duration="94000" />
+      <workItem from="1698064477552" duration="146000" />
+      <workItem from="1698214858491" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="terminado">
       <option name="closed" value="true" />

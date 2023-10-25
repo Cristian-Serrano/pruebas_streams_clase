@@ -204,4 +204,73 @@ public class MenuTest {
                 .peek(s -> System.out.println(s))
                 .collect(toList());
     }
+
+    @Test
+    void allMatchAnyMatchNoneMatchTest(){
+        if(menu.stream().anyMatch(Dish::isVegetarian)) {  // anyMatch comprueba que algún elemento cumpla con el predicado  devolviendo true en ese caso
+            //Predicado por referencia a método Dish::isVegetarian
+            System.out.println("The menu is (somewhat) vegetarian friendly!!");
+        }
+        boolean isHealthy = menu.stream()
+                .allMatch(dish -> dish.getCalories() < 1000); //allMatch comprueba que todos los elementos cumplan con el predicado devolviendo true en ese caso
+
+
+        boolean isHealthy2 = menu.stream()
+                .noneMatch(d -> d.getCalories() >= 1000); //noneMatch comprueba que ningún elemento cumpla con el predicado, devolviendo true en ese caso
+
+        Assertions.assertEquals(isHealthy,isHealthy2);
+
+        boolean isHealthyNoMatch = menu.stream()
+                .filter(dish -> dish.getCalories() < 1000)
+                .count() == menu.size();
+
+        //equals tiene en cuenta el orden
+        boolean isHealthyNoMatch2 = menu.stream()
+                .filter(dish -> dish.getCalories() < 1000)
+                .collect(toList()).equals(menu);
+
+
+        /*menu.sort(Comparator.comparing(Dish::getCalories));
+
+        boolean isHealthyNoMatch3 = menu.stream()
+                .filter(dish -> dish.getCalories() < 1000)
+                .sorted(Comparator.comparing(Dish::getCalories))
+                .collect(toList()).equals(menu);*/
+
+        Assertions.assertTrue(isHealthyNoMatch == isHealthyNoMatch2 == isHealthy);
+    }
+
+    /**
+     * Puede que el objeto optional vaya vacío, optional se usa para avisarte de que puede devolver
+     * un nulo, así no se te olvida de poner la comprobación, para que no te de nullPointerException
+     */
+    @Test
+    void findYOptional(){
+        Optional<Dish> dish = menu.stream()
+                .filter(dish1 -> dish1.isVegetarian())
+                .findAny(); //Devuelve alguno, de tipo Optional<T>
+
+        if (dish.isPresent()){
+            System.out.println(dish);
+        }
+
+        dish.ifPresent(dish1 -> System.out.println());
+
+        menu.stream()
+                .filter(dish1 -> dish1.getCalories() > 400)
+                .findAny().ifPresent(dish1 -> System.out.println(dish1));
+
+        menu.stream()
+                .filter(dish1 -> dish1.getCalories() > 40000)
+                .findAny().map(dish1 -> dish1.getName()).orElse("No_encontrado"); //orElse devuelve el objeto del optional o la cadena "No_encontrado" si el optional está vacío
+
+        try{
+            menu.stream()
+                    .filter(dish1 -> dish1.getCalories() > 40000)
+                    .findAny().map(dish1 -> dish1.getName()).get();
+        }catch (NoSuchElementException e){
+            System.out.println("No encontrado");
+        }
+
+    }
 }
