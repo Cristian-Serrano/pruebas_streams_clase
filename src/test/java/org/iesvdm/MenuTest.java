@@ -273,4 +273,26 @@ public class MenuTest {
         }
 
     }
+
+    @Test
+    void reduceTest(){
+        int[] numbers = {1,2,3,4,5};
+        int sum = Arrays.stream(numbers)
+                .reduce(0,(a, b) -> a + b);
+
+        int mul = Arrays.stream(numbers)
+                .reduce(1,(a, b) -> a * b);
+
+        String[] strings = {"Uno","Dos"};
+
+        String cadena = Arrays.stream(strings)
+                .reduce("",(a, b) -> a.concat(b)); //String::concat
+
+        OptionalInt sum2 = Arrays.stream(numbers)
+                .reduce((a, b) -> (a + b));
+
+        if (sum2.isEmpty()){
+            
+        }
+    }
 }
